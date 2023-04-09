@@ -4,11 +4,12 @@
   --address-list-color: #434455;
   --logo-color: #4d5ae5;
   --pf-btn-color: #f4f4fd;
+  --background-color-one: #ffffff;
 }
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  background-color: #ffffff;
+  background-color: var(--background-color-one);
 }
 .list {
   list-style: none;
@@ -20,7 +21,7 @@ body {
   border-bottom: 1px solid rgba(231, 233, 252, 1);
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .logo {
@@ -142,7 +143,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--address-list-color);
 }
-/* Section 2 */
 .title-height-two {
   font-family: "Roboto", sans-serif;
   font-size: 36px;
@@ -152,12 +152,35 @@ body {
   text-transform: capitalize;
   color: var(--nav-item-color);
 }
+.features-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 8px;
+  margin: 120px 156px;
+}
+.features-item {
+  width: 264px;
+}
+/* Section 2 */
+/* .works.title-height-two {
+  border: 0;
+} */
+.works-list {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 24px;
+  padding-top: 72px;
+}
+
 /* Section 3 */
 .team {
-  background-color: #f4f4fd;
+  background-color: var(--pf-btn-color);
 }
 .team-member {
-  background-color: #ffffff;
+  background-color: var(--background-color-one);
 }
 /* Footer */
 .footer {
