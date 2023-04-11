@@ -210,6 +210,7 @@ img {
 }
 .team-member {
   background-color: var(--background-color-one);
+  border-radius: 0px 0px 4px 4px;
   width: calc((100% - 72px) / 4);
 }
 .team-member-cont {
@@ -246,6 +247,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--pf-btn-color);
   max-width: 264px;
+  margin: 0;
 }
 
 /* Page Portfolio */
